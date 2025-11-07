@@ -3,18 +3,21 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gibocode/cse-341.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gilbor Camporazo Jr.",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gibocode/cse-341/issues"
   },
   "homepage": "https://github.com/gibocode/cse-341#readme",
-  "description": ""
+  "description": "CSE 341 Project",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
