@@ -16,11 +16,11 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Contacts Routes",
+            "name": "MongoDB Connection",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/routes/contacts.js"
+            "program": "${workspaceFolder}/data/database.js"
         },
     ]
 }

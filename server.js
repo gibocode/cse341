@@ -1,11 +1,11 @@
 const express = require('express');
-const contacts = require('./routes/contacts');
+const database = require('./data/database');
 const app = express();
 
 app.use('/', require('./routes'));
 
 // Initialize database and start server
-contacts.initialize((err) => {
+database.initialize((err) => {
     if (err) {
         console.error(err);
     }
